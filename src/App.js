@@ -3,7 +3,6 @@ import "./App.css";
 // import About from './Components/About';
 import Navbar from "./Components/Navbar";
 import Textform from "./Components/Textform";
-import About from "./Components/About";
 import React from "react";
 // import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
@@ -24,18 +23,18 @@ function App() {
   return (
     <>
       {/* <Router> */}
-        <Navbar title="PlayWithText" mode={mode} toggleMode={toggleMode} />
-        <div className="container">
-          {/* { <Routes> 
+      <Navbar title="PlayWithText" mode={mode} toggleMode={toggleMode} />
+      <div className="container">
+        {/* { <Routes> 
             { <Route
               path="/"
               element={
                 />
                } } */}
-          <Textform heading="Enter Your Text " mode={mode} />
-            {/* <Route path="/about" element={<About />} /> */}
-          {/* </Routes> */}
-        </div>
+        <Textform heading="Enter Your Text " mode={mode} />
+        {/* <Route path="/about" element={<About />} /> */}
+        {/* </Routes> */}
+      </div>
       {/* </Router> */}
     </>
   );
